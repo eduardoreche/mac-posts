@@ -1,0 +1,9 @@
+extends layout
+
+
+block content
+  a(href=`/`)= '<< VOLTAR'
+  h1= post.title || '<SEM TITULO>'
+  div!= post.content || '<SEM CONTEUDO>'
+
+  
